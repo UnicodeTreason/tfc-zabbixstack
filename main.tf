@@ -16,7 +16,6 @@ resource "vultr_instance" "srv02" {
   region    = var.region_sydney
   os_id     = var.os_centos_9
   plan      = var.plan_one_cpu_two_gb_ram
-  script_id = "e4a5ee18-d49d-4440-817b-994632729d38"
   hostname  = "srv02"
   label     = "Zabbix Host"
   tag       = "terraform"
